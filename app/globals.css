@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@import "../design-tokens.css";
+
+/* Reset and Global Styles */
+body {
+  background-color: var(--sys-color-roles-neutral-role-neutral-color-role, #ffffff);
+  color: var(--sys-color-roles-neutral-role-on-neutral-color-role, #191919);
+  font-family: var(--sys-typography-body-body-large-font-family, "Inter"), sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@theme {
+  /* Dynamic Mapping of Design Tokens to Tailwind Classes */
+  --color-primary: var(--sys-color-roles-primary-role-primary-color-role);
+  --color-on-primary: var(--sys-color-roles-primary-role-on-primary-color-role);
+  --color-primary-container: var(--sys-color-roles-primary-role-primary-container-role);
+  --color-on-primary-container: var(--sys-color-roles-primary-role-on-primary-container-role);
+
+  --color-secondary: var(--sys-color-roles-secondary-role-secondary-color-role);
+  --color-on-secondary: var(--sys-color-roles-secondary-role-on-secondary-role);
+  --color-secondary-container: var(--sys-color-roles-secondary-role-secondary-container-role);
+  --color-on-secondary-container: var(--sys-color-roles-secondary-role-on-secondary-container-role);
+
+  --color-neutral: var(--sys-color-roles-neutral-role-neutral-color-role);
+  --color-on-neutral: var(--sys-color-roles-neutral-role-on-neutral-color-role);
+  --color-neutral-container: var(--sys-color-roles-neutral-role-neutral-container-role);
+  
+  --color-surface: var(--sys-primitive-color-collections-color-palettes-neutral-neutral100);
+  --color-background: var(--sys-color-roles-neutral-role-neutral-color-role);
+
+  /* Typography Scale */
+  --font-display: var(--sys-typography-display-display-large-font-family, "Inter");
+  --font-body: var(--sys-typography-body-body-large-font-family, "Inter");
+
+  --text-display-lg: var(--sys-typography-display-display-large-font-size);
+  --text-display-md: var(--sys-typography-display-display-medium-font-size);
+  --text-display-sm: var(--sys-typography-display-display-small-font-size);
+
+  --text-headline-lg: var(--sys-typography-headline-headline-large-font-size);
+  --text-headline-md: var(--sys-typography-headline-headline-medium-font-size);
+  --text-headline-sm: var(--sys-typography-headline-headline-small-font-size);
+
+  --text-body-lg: var(--sys-typography-body-body-large-font-size);
+  --text-body-md: var(--sys-typography-body-body-medium-font-size);
+  --text-body-sm: var(--sys-typography-body-body-small-font-size);
+
+  --text-label-lg: var(--sys-typography-label-label-large-font-size);
+  --text-label-md: var(--sys-typography-label-label-medium-font-size);
+  --text-label-sm: var(--sys-typography-label-label-small-font-size);
+
+  /* Marquee Animation */
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
