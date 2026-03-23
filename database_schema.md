@@ -1,4 +1,4 @@
-# 📄 database-schema.md
+#  database-schema.md
 
 ## Overview
 This document defines the database schema for the **SignalFlow AI marketing landing page**.
@@ -13,7 +13,7 @@ This is **not the full product database**.
 
 ---
 
-## 🧠 Design Principles
+##  Design Principles
 
 - Minimal and scalable  
 - Focused on conversion tracking  
@@ -23,7 +23,7 @@ This is **not the full product database**.
 
 ---
 
-## 🧩 Core Entities
+##  Core Entities
 
 The marketing page uses the following core entities:
 
@@ -35,7 +35,7 @@ The marketing page uses the following core entities:
 
 ---
 
-## 1. 👤 Leads Table
+## 1.  Leads Table
 
 Stores users who sign up for free trial or waitlist.
 
@@ -57,7 +57,7 @@ Stores users who sign up for free trial or waitlist.
 
 ---
 
-## 2. 📊 Events Table
+## 2.  Events Table
 
 Tracks user actions across the landing page.
 
@@ -80,7 +80,7 @@ Tracks user actions across the landing page.
 
 ---
 
-## 3. 🧭 Sessions Table
+## 3.  Sessions Table
 
 Tracks user visits and behavior context.
 
@@ -102,7 +102,7 @@ Tracks user visits and behavior context.
 
 ---
 
-## 4. 🧪 Experiments Table (A/B Testing)
+## 4.  Experiments Table (A/B Testing)
 
 Supports conversion optimization experiments.
 
@@ -129,7 +129,7 @@ Supports conversion optimization experiments.
 
 ---
 
-## 5. 💬 Testimonials Table
+## 5.  Testimonials Table
 
 Stores social proof content shown on landing page.
 
@@ -147,7 +147,7 @@ Stores social proof content shown on landing page.
 
 ---
 
-## 🔗 Relationships
+##  Relationships
 
 - sessions → events (1 to many)  
 - sessions → experiment_assignments (1 to many)  
@@ -156,7 +156,7 @@ Stores social proof content shown on landing page.
 
 ---
 
-## 🔐 Data Privacy & Safety
+##  Data Privacy & Safety
 
 ### Rules
 - Do not store sensitive personal data  
@@ -166,7 +166,7 @@ Stores social proof content shown on landing page.
 
 ---
 
-## ⚡ Data Flow
+##  Data Flow
 
 User visits page  
 → session created  
@@ -177,7 +177,7 @@ User visits page
 
 ---
 
-## 🧪 Validation Rules
+##  Validation Rules
 
 ### Email Validation
 - Must be valid email format  
@@ -190,7 +190,7 @@ User visits page
 
 ---
 
-## 🚀 Implementation Notes
+##  Implementation Notes
 
 This schema can be implemented using:
 
