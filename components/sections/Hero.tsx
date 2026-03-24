@@ -22,20 +22,17 @@ export const Hero: React.FC = () => {
            </svg>
         </div>
         
-        <Typography variant="display-lg" component="h1" className="mb-10 font-black tracking-tight leading-[1.05] text-[64px] md:text-[88px] max-w-4xl mx-auto">
-          Understand what your <br /> users do <span className="text-primary italic">instantly!</span>
+        <Typography variant="display-lg" component="h1" className="mb-10 font-black tracking-tight leading-[0.9] text-[64px] md:text-[88px] max-w-4xl mx-auto">
+          Understand what your users do <br /><span className="text-primary italic">instantly!</span>
         </Typography>
 
         <Typography variant="body-lg" className="mb-10 text-on-neutral/60 max-w-2xl text-[18px] md:text-[20px] leading-relaxed">
           SignalFlow AI tracks real user behavior, detects patterns with AI, and tells you what to improve to increase conversion.
         </Typography>
 
-        <div className="flex flex-col sm:flex-row gap-4 mb-20">
-          <Button variant="primary" size="lg" className="rounded-full px-10 h-16 text-[18px] font-black shadow-2xl shadow-primary/20 hover:scale-105 transition-transform">
+        <div className="flex justify-center w-full mb-20">
+          <Button variant="primary" size="lg" className="rounded-full px-16 h-16 text-[18px] font-black shadow-2xl shadow-primary/20 hover:scale-105 transition-transform">
             Start free trial
-          </Button>
-          <Button variant="secondary" size="lg" className="rounded-full px-10 h-16 text-[18px] font-black hover:scale-105 transition-transform">
-            See how it works
           </Button>
         </div>
 

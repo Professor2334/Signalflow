@@ -2,6 +2,14 @@
 @import "../design-tokens.css";
 
 /* Reset and Global Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
 body {
   background-color: var(--sys-color-roles-neutral-role-neutral-color-role, #ffffff);
   color: var(--sys-color-roles-neutral-role-on-neutral-color-role, #191919);

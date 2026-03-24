@@ -6,7 +6,7 @@ export const SocialProof: React.FC = () => {
   return (
     <Section className="py-20 bg-background overflow-hidden relative">
       <div className="max-w-7xl mx-auto text-center px-4 mb-20">
-        <Typography variant="label-md" className="opacity-80 uppercase tracking-[0.4em] font-black text-center text-primary">
+        <Typography variant="label-md" className="opacity-80 uppercase tracking-[0.4em] font-black text-center text-primary font-extrabold">
           Trusted by fast-growing product teams
         </Typography>
       </div>
