@@ -44,7 +44,7 @@ export const Navbar: React.FC = () => {
 
            {/* Actions - Mobile view inside menu */}
            <div className="flex lg:hidden w-full mt-4">
-             <button className="bg-white text-black rounded-full w-full h-10 flex items-center justify-center font-semibold text-label-lg uppercase tracking-widest hover:bg-[#f2f2f2] transition-all shadow-xl active:scale-95 whitespace-nowrap">
+             <button className="bg-white text-black rounded-full w-full py-3 flex items-center justify-center font-semibold text-label-lg uppercase tracking-widest hover:bg-[#f2f2f2] transition-all shadow-xl active:scale-95 whitespace-nowrap">
                Get Started
              </button>
            </div>
@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
 
         {/* Actions - Desktop view compressed right */}
         <div className="hidden lg:flex flex-1 items-center justify-end">
-          <button className="bg-white text-black rounded-full px-8 h-10 flex items-center justify-center font-semibold text-label-lg uppercase tracking-widest hover:bg-[#f2f2f2] transition-all shadow-xl active:scale-95 whitespace-nowrap">
+          <button className="bg-white text-black rounded-full px-8 py-3 flex items-center justify-center font-semibold text-label-lg uppercase tracking-widest hover:bg-[#f2f2f2] transition-all shadow-xl active:scale-95 whitespace-nowrap">
             Get Started
           </button>
         </div>
