@@ -4,7 +4,7 @@ type TypographyVariant =
   | 'display-lg' | 'display-md' | 'display-sm' 
   | 'headline-lg' | 'headline-md' | 'headline-sm'
   | 'body-lg' | 'body-md' | 'body-sm'
-  | 'label-lg' | 'label-md';
+  | 'label-lg' | 'label-md' | 'label-sm';
 
 interface TypographyProps {
   variant: TypographyVariant;
@@ -35,6 +35,7 @@ export const Typography: React.FC<TypographyProps> = ({
     'body-sm': 'text-body-sm font-body',
     'label-lg': 'text-label-lg font-body font-semibold uppercase tracking-wider',
     'label-md': 'text-label-md font-body font-medium',
+    'label-sm': 'text-label-sm font-body font-medium',
   };
 
   return (
