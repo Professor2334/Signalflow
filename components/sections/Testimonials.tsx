@@ -25,10 +25,10 @@ export const Testimonials: React.FC = () => {
     <Section id="testimonials" background="neutral" className="py-32 overflow-hidden">
       <div className="text-center mb-24 max-w-3xl mx-auto px-6">
         <Typography variant="label-lg" className="text-primary mb-6 font-black tracking-[0.3em] uppercase">Testimonials</Typography>
-        <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-tight text-[48px] md:text-[64px]">
+        <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-tight">
           What Early Users Say
         </Typography>
-        <Typography variant="body-lg" className="opacity-50 max-w-2xl mx-auto text-[20px]">
+        <Typography variant="body-lg" className="opacity-50 max-w-2xl mx-auto">
           Detailed feedback from founders who turned their product into a successful, seamless, and confident launch.
         </Typography>
       </div>
@@ -44,15 +44,15 @@ export const Testimonials: React.FC = () => {
                        <path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C20.1216 16 21.017 16.8954 21.017 18V21C21.017 22.1046 20.1216 23 19.017 23H16.017C14.9124 23 14.017 22.1046 14.017 21ZM4.017 21L4.017 18C4.017 16.8954 4.9124 16 6.017 16H9.017C10.1216 16 11.017 16.8954 11.017 18V21C11.017 22.1046 10.1216 23 9.017 23H6.017C4.9124 23 4.017 22.1046 4.017 21ZM14.017 11V8C14.017 4.13401 17.151 1 21.017 1V4C18.2556 4 16.017 6.23858 16.017 9V11H14.017ZM4.017 11V8C4.017 4.13401 7.151 1 11.017 1V4C8.25558 4 6.017 6.23858 6.017 9V11H4.017Z" />
                     </svg>
                  </div>
-                 <Typography variant="headline-sm" className="text-on-neutral font-[800] leading-snug text-[24px] tracking-tight mb-10">
+                 <Typography variant="headline-sm" className="text-on-neutral font-[800] leading-snug tracking-tight mb-10">
                    "{t.quote}"
                  </Typography>
               </div>
 
               <div className="flex items-center justify-between pt-8">
                 <div>
-                   <Typography variant="headline-sm" className="font-black text-lg text-on-neutral tracking-tight">{t.author.split('@')[0]}</Typography>
-                   <Typography variant="body-md" className="opacity-40 font-bold uppercase tracking-widest text-[10px] mt-1">{t.author.split('@')[1]}</Typography>
+                    <Typography variant="headline-sm" className="font-black text-on-neutral tracking-tight">{t.author.split('@')[0]}</Typography>
+                    <Typography variant="body-md" className="opacity-40 font-bold uppercase tracking-widest mt-1">{t.author.split('@')[1]}</Typography>
                 </div>
                 {/* Real Avatar Image */}
                 <div className="w-14 h-14 rounded-full overflow-hidden bg-neutral-container border-2 border-white shadow-lg">

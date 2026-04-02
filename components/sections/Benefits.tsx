@@ -18,11 +18,11 @@ export const Benefits: React.FC = () => {
       <div className="flex flex-col lg:flex-row gap-24 items-center max-w-7xl mx-auto px-6 mb-24">
         <div className="flex-1">
            <Typography variant="label-lg" className="text-secondary mb-6 font-black tracking-[0.2em] uppercase text-center lg:text-left">The Impact</Typography>
-           <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-tight text-[56px] text-center lg:text-left">
+           <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-tight text-center lg:text-left">
              Make smarter decisions. <br /> 
              <span className="text-secondary">Grow faster.</span>
            </Typography>
-           <Typography variant="body-lg" className="text-on-neutral/60 mb-10 text-[20px] leading-relaxed max-w-lg mx-auto lg:mx-0 text-center lg:text-left">
+           <Typography variant="body-lg" className="text-on-neutral/60 mb-10 leading-relaxed max-w-lg mx-auto lg:mx-0 text-center lg:text-left">
              SignalFlow AI turns your behavioral data into a competitive advantage by aligning your product decisions with actual user needs.
            </Typography>
         </div>
@@ -37,7 +37,7 @@ export const Benefits: React.FC = () => {
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
                </div>
-               <Typography variant="body-lg" className="font-[900] text-2xl tracking-tight text-on-neutral/80 group-hover:text-on-neutral transition-colors">{benefit}</Typography>
+               <Typography variant="body-lg" className="font-[900] tracking-tight text-on-neutral/80 group-hover:text-on-neutral transition-colors">{benefit}</Typography>
             </div>
           ))}
         </div>

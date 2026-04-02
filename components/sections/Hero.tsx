@@ -22,11 +22,11 @@ export const Hero: React.FC = () => {
            </svg>
         </div>
         
-        <Typography variant="display-lg" component="h1" className="mb-10 font-black tracking-tight leading-[0.9] text-[64px] md:text-[88px] max-w-4xl mx-auto">
+        <Typography variant="display-lg" component="h1" className="mb-10 font-[900] tracking-tighter leading-[0.95] max-w-4xl mx-auto">
           Understand what your users do <br /><span className="text-primary italic">instantly!</span>
         </Typography>
 
-        <Typography variant="body-lg" className="mb-10 text-on-neutral/60 max-w-2xl text-[18px] md:text-[20px] leading-relaxed">
+        <Typography variant="body-lg" className="mb-10 text-on-neutral/60 max-w-2xl leading-relaxed">
           SignalFlow AI tracks real user behavior, detects patterns with AI, and tells you what to improve to increase conversion.
         </Typography>
 

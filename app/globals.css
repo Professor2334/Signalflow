@@ -7,7 +7,7 @@
 }
 
 html, body {
-  height: 100vh;
+  height: 100svh;
 }
 
 body {
@@ -41,21 +41,21 @@ body {
   --font-display: var(--sys-typography-display-display-large-font-family, "Inter");
   --font-body: var(--sys-typography-body-body-large-font-family, "Inter");
 
-  --text-display-lg: var(--sys-typography-display-display-large-font-size);
-  --text-display-md: var(--sys-typography-display-display-medium-font-size);
-  --text-display-sm: var(--sys-typography-display-display-small-font-size);
+  --text-display-lg: clamp(3rem, 1.5rem + 7.5vw, 5.5rem); /* 48px to 88px */
+  --text-display-md: clamp(2.5rem, 1.25rem + 6.25vw, 4.5rem); /* 40px to 72px */
+  --text-display-sm: clamp(2rem, 1.5rem + 2.5vw, 3rem); /* 32px to 48px */
 
-  --text-headline-lg: var(--sys-typography-headline-headline-large-font-size);
-  --text-headline-md: var(--sys-typography-headline-headline-medium-font-size);
-  --text-headline-sm: var(--sys-typography-headline-headline-small-font-size);
+  --text-headline-lg: clamp(1.75rem, 1.25rem + 2.5vw, 2.5rem); /* 28px to 40px */
+  --text-headline-md: clamp(1.5rem, 1.25rem + 1.25vw, 2rem); /* 24px to 32px */
+  --text-headline-sm: clamp(1.25rem, 1.125rem + 0.625vw, 1.5rem); /* 20px to 24px */
 
-  --text-body-lg: var(--sys-typography-body-body-large-font-size);
-  --text-body-md: var(--sys-typography-body-body-medium-font-size);
-  --text-body-sm: var(--sys-typography-body-body-small-font-size);
+  --text-body-lg: 1.125rem; /* 18px */
+  --text-body-md: 1rem; /* 16px */
+  --text-body-sm: 0.875rem; /* 14px */
 
-  --text-label-lg: var(--sys-typography-label-label-large-font-size);
-  --text-label-md: var(--sys-typography-label-label-medium-font-size);
-  --text-label-sm: var(--sys-typography-label-label-small-font-size);
+  --text-label-lg: 0.875rem; /* 14px */
+  --text-label-md: 0.75rem; /* 12px */
+  --text-label-sm: 0.625rem; /* 10px */
 
   /* Marquee Animation */
   @keyframes marquee {

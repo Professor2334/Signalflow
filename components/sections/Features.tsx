@@ -52,10 +52,10 @@ export const Features: React.FC = () => {
       
       <div className="text-center mb-24 max-w-4xl mx-auto px-6">
         <Typography variant="label-lg" className="text-primary mb-6 font-black tracking-[0.3em] uppercase">Features</Typography>
-        <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-tight text-[48px] md:text-[64px]">
+        <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-tight">
           Built for Modern <br /> Growth Teams
         </Typography>
-        <Typography variant="body-lg" className="opacity-50 max-w-2xl mx-auto text-[20px]">
+        <Typography variant="body-lg" className="opacity-50 max-w-2xl mx-auto">
           Everything you need to explain your tool clearly, without complexity.
         </Typography>
       </div>
@@ -72,12 +72,12 @@ export const Features: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d={i % 2 === 0 ? "M13 10V3L4 14h7v7l9-11h-7z" : "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.989-2.386l-.548-.547z"} />
                </svg>
             </div>
-            <Typography variant="headline-sm" className="mb-4 font-black text-2xl tracking-tight leading-tight">{feature.title}</Typography>
+            <Typography variant="headline-sm" className="mb-4 font-black tracking-tight leading-tight">{feature.title}</Typography>
             <Typography variant="body-md" className="text-on-neutral/60 mb-8 flex-1 leading-relaxed font-semibold">{feature.description}</Typography>
             <div className="pt-8 opacity-20 group-hover:opacity-100 transition-opacity">
               <div className="flex items-center gap-3">
                  <div className="w-2 h-2 rounded-full bg-primary"></div>
-                 <Typography variant="label-md" className="font-black text-[11px] text-primary uppercase tracking-widest">
+                 <Typography variant="label-md" className="font-black text-primary uppercase tracking-widest">
                    Actionable Result
                  </Typography>
               </div>

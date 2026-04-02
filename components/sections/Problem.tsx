@@ -10,11 +10,11 @@ export const Problem: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center max-w-7xl mx-auto">
         <div>
             <Typography variant="label-lg" className="text-secondary mb-6 font-black tracking-[0.2em] uppercase">The Pain Point</Typography>
-            <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-tight text-[56px]">
+            <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-tight">
               You are collecting data <br /> 
               <span className="opacity-30">but still guessing</span>
             </Typography>
-            <Typography variant="body-lg" className="text-on-neutral/60 mb-8 text-[22px] leading-relaxed">
+            <Typography variant="body-lg" className="text-on-neutral/60 mb-8 leading-relaxed">
               Data alone does not drive growth. <br />
               <strong>Understanding behavior does.</strong>
             </Typography>

@@ -34,7 +34,7 @@ export const Solution: React.FC = () => {
                            </div>
                            <Typography variant="label-md" className="text-white font-black tracking-widest uppercase">Smart Insight</Typography>
                         </div>
-                        <Typography variant="headline-sm" className="text-white font-black mb-2 text-2xl">Drop-off Pattern Detected</Typography>
+                        <Typography variant="headline-sm" className="text-white font-black mb-2">Drop-off Pattern Detected</Typography>
                         <Typography variant="body-md" className="text-white/80 font-bold italic leading-relaxed">
                           "82% of users quit after Step 2. Removing the 'Phone' field will likely increase conversion by 12.4%."
                         </Typography>
@@ -48,11 +48,11 @@ export const Solution: React.FC = () => {
         
         <div className="flex-1 order-1 lg:order-2">
            <Typography variant="label-lg" className="text-primary mb-6 font-black tracking-[0.2em] uppercase">The Solution</Typography>
-           <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-[1.2] text-[56px]">
+           <Typography variant="display-sm" component="h2" className="mb-8 font-black leading-[1.2]">
              Turn user behavior <br /> 
              <span className="text-primary">into clear decisions</span>
            </Typography>
-           <Typography variant="body-lg" className="text-on-neutral/60 mb-10 text-[20px] leading-relaxed max-w-lg">
+           <Typography variant="body-lg" className="text-on-neutral/60 mb-10 leading-relaxed max-w-lg">
              SignalFlow AI goes beyond traditional analytics by analyzing how users interact with your product and translating it into clear, actionable insights.
            </Typography>
            
@@ -69,7 +69,7 @@ export const Solution: React.FC = () => {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                        </svg>
                     </div>
-                    <Typography variant="body-lg" className="font-black text-xl tracking-tight">{item}</Typography>
+                    <Typography variant="body-lg" className="font-black tracking-tight">{item}</Typography>
                   </div>
                 ))}
               </div>

@@ -71,7 +71,7 @@ export const HowItWorks: React.FC = () => {
                        </div>
                     </div>
                     <div className="absolute -bottom-12 left-1/2 -translate-x-1/2 text-center w-32">
-                       <Typography variant="label-md" className="text-white/60 font-black tracking-widest uppercase text-[9px] mb-1">Analyzing...</Typography>
+                       <Typography variant="label-md" className="text-white/60 font-black tracking-widest uppercase text-[0.5625rem] mb-1">Analyzing...</Typography>
                        <div className="w-full h-1 bg-white/10 rounded-full overflow-hidden">
                           <div className="w-2/3 h-full bg-purple-500"></div>
                        </div>
@@ -104,7 +104,7 @@ export const HowItWorks: React.FC = () => {
           }
         ].map((step, i) => (
           <div key={i} className="group p-10 bg-white rounded-[56px] shadow-[0_32px_96px_-16px_rgba(0,0,0,0.06)] flex flex-col h-full transition-all duration-500 hover:shadow-[0_48px_128px_-24px_rgba(0,0,0,0.1)] hover:-translate-y-2 overflow-hidden">
-            <Typography variant="display-sm" className="mb-4 font-[900] text-3xl tracking-tighter">
+            <Typography variant="display-sm" className="mb-4 font-[900] tracking-tighter">
               <span className="text-on-neutral/20">{step.num}. </span>{step.title}
             </Typography>
             <Typography variant="body-lg" className="text-on-neutral/60 mb-10 font-bold leading-relaxed">{step.desc}</Typography>
@@ -115,7 +115,7 @@ export const HowItWorks: React.FC = () => {
                   {step.mockup}
                </div>
                <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
-                  <Typography variant="label-md" className="text-white/20 font-black tracking-widest uppercase text-[9px]">SignalFlow Logic Core</Typography>
+                  <Typography variant="label-md" className="text-white/20 font-black tracking-widest uppercase text-[0.5625rem]">SignalFlow Logic Core</Typography>
                </div>
             </div>
           </div>
