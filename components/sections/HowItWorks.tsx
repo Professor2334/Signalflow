@@ -71,7 +71,7 @@ export const HowItWorks: React.FC = () => {
                        </div>
                     </div>
                     <div className="absolute -bottom-12 left-1/2 -translate-x-1/2 text-center w-32">
-                       <Typography variant="label-sm" className="text-white/60 font-black tracking-widest uppercase text-[9px] mb-1">Analyzing...</Typography>
+                       <Typography variant="label-md" className="text-white/60 font-black tracking-widest uppercase text-[9px] mb-1">Analyzing...</Typography>
                        <div className="w-full h-1 bg-white/10 rounded-full overflow-hidden">
                           <div className="w-2/3 h-full bg-purple-500"></div>
                        </div>
@@ -115,7 +115,7 @@ export const HowItWorks: React.FC = () => {
                   {step.mockup}
                </div>
                <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
-                  <Typography variant="label-sm" className="text-white/20 font-black tracking-widest uppercase text-[9px]">SignalFlow Logic Core</Typography>
+                  <Typography variant="label-md" className="text-white/20 font-black tracking-widest uppercase text-[9px]">SignalFlow Logic Core</Typography>
                </div>
             </div>
           </div>
